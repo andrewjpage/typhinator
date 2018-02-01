@@ -1,0 +1,28 @@
+Package: typhinator
+Type: Package
+Title: Root to Tip subgrouping
+Version: 0.0.1
+Date: 2017-11-28
+Authors@R:
+    person(given = "Alexander",
+           family = "Wailan",
+           role = c("cre", "aut"),
+           email = "aw19@sanger.ac.uk")
+Maintainer: Alexander Wailan <aw19@sanger.ac.uk>
+Description: 'typhinator' is a package that allows for root to tip 
+subgrouping to be performed for Salmonella Typhi.
+License: GNU GPL 3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: geiger,
+    ape,
+    igraph,
+    BMhyd,
+    phangorn,
+    phytools,
+    optparse
+Remotes: alexwailan/typhinator@label-tag
+RoxygenNote: 6.0.1.9000
+Roxygen: list(markdown = TRUE)
+URL: https://github.com/alexwailan/typhinator
+BugReports: https://github.com/alexwailan/typhinator/issues
